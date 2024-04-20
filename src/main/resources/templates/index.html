@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Work</title>
+</head>
+<body>
+    <th th:text="|numbers ${numbers}|"></th>
+
+    <ul>
+        <li><button>
+            <a th:href="@{/2}">2. Tìm các giá trị chẵn trong list</a>
+        </button></li>
+        <li><button>
+            <a th:href="@{/3}">3. Tìm các giá trị > 5 trong list</a>
+        </button></li>
+        <li><button>
+            <a th:href="@{/4}">4. Tìm giá trị max trong list</a>
+        </button></li>
+        <li><button>
+            <a th:href="@{/5}">5. Tìm giá trị min trong list</a>
+        </button></li>
+        <li><button>
+            <a th:href="@{/6}">6. Tính tổng các phần tử của mảng</a>
+        </button></li>
+        <li><button>
+            <a th:href="@{/7}">7. Lấy danh sách các phần tử không trùng nhau</a>
+        </button></li>
+        <li><button>
+            <a th:href="@{/8}">8. Lấy 5 phần tử đầu tiên trong mảng</a>
+        </button></li>
+        <li><button>
+            <a th:href="@{/9}">9. Lấy phần tử từ thứ 3 -> thứ 5</a>
+        </button></li>
+        <li><button>
+            <a th:href="@{/10}">10. Lấy phần tử đầu tiên > 5</a>
+        </button></li>
+    </ul>
+
+
+</body>
+</html>
